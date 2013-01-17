@@ -31,10 +31,10 @@ OI::OI() {
 	
 	joystick = new Joystick(1);
 		
-	button4 = new JoystickButton(joystick, 4);
-	button4->WhileHeld(new Convey(-1.0));
-	button3 = new JoystickButton(joystick, 3);
-	button3->WhileHeld(new Convey(1.0));
+	cButton4 = new JoystickButton(joystick, 4);
+	cButton4->WhileHeld(new Convey(-1.0));
+	cButton3 = new JoystickButton(joystick, 3);
+	cButton3->WhileHeld(new Convey(1.0));
 	
 	xBOXCTRL = new Joystick(1);
 	

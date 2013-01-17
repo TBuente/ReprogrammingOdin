@@ -20,8 +20,8 @@ private:
 	Joystick* driver;
 	Joystick* coDriver;
 	Joystick* joystick;
-	JoystickButton* button4;
-	JoystickButton* button3;
+	JoystickButton* cButton4;
+	JoystickButton* cButton3;
 	JoystickButton* dButton2;
 	JoystickButton* cButton1;
 	JoystickButton* cButton3;
